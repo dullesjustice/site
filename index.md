@@ -20,24 +20,17 @@ permalink: /
     <div class="col-sm-10 col-sm-offset-1"><h2>Get Involved</h2></div>
   </div>
   <div class="row getinvolved">
-    <div class="col-sm-4 col-sm-offset-1 col-xs-12">
+    <div class="col-sm-10 col-sm-offset-1 col-xs-12">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Volunteer.png" />
       <p>
         We are grateful for any time you are able to give. Volunteer opportunities range from online to on the ground at Dulles. Please fill out our brief form to get an assignment.
       </p>
-      <button class="btn btn-primary btn-block">VOLUNTEER</button>
-    </div>
-    <div class="col-sm-4 col-sm-offset-2 col-xs-12">
-      <img class="centered" src="{{ site.baseurl }}/images/Icon-Donate.png" />
-      <p>
-        We are still in the process of getting our donation function set up. In the meantime, please consider donating to the ACLU.
-      </p>
-      <button class="btn btn-primary btn-block">DONATE</button>
+      <a class="btn btn-primary btn-block" href="https://goo.gl/forms/sh1EhJHuWAan4YtE3">VOLUNTEER</a>
     </div>
   </div>
   <div class="row pad25">
     <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-      <p>If neither of these options strikes your fancy, here are other ways to <a href="{{ site.baseurl }}/action/">TAKE ACTION</a>.</p>
+      <p>If volunteering does not strike your fancy, here are other ways to <a href="{{ site.baseurl }}/action/">TAKE ACTION</a>.</p>
     </div>
   </div>
   {% include imagerow.html src="Homepage-photo2.jpg" %}
