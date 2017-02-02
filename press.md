@@ -3,4 +3,4 @@ layout: default
 permalink: /press/
 ---
 
-Press
+## Media Inquiries
