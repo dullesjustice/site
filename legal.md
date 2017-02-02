@@ -1,12 +1,12 @@
 ---
 layout: default
 permalink: /legal/
-title: Legal Assistance
+title: Legal Help
 ---
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1"><h2>Legal Assistance</h2></div>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1"><h2>Legal Help</h2></div>
   </div>
   <div class="row padbottom50">
     <div class="col-xs-12 col-sm-8 col-sm-offset-2">
