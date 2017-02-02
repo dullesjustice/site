@@ -10,7 +10,7 @@ test:
     - bundle exec jekyll build
 deployment:
   prod:
-    branch: /(test)/
+    branch: /(prod|test)/
     commands:
       - ./tools/deploy $CIRCLE_BRANCH 
   automerge:
