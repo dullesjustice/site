@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+{% assign items = site.items | where:"category",page.category | sort: 'order' %}
+{% for item in items %}
+  {% include item.html %}
+{% endfor %}

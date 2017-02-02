@@ -140,10 +140,14 @@ h3 {
   padding-bottom: 50px;
 }
 
-.divider {
+.item:not(:last-child) .itembody {
   padding-bottom: 50px;
   border-bottom: 2px solid $brand-primary;
   margin-bottom: 15px;
+}
+
+.item:last-child {
+  padding-bottom: 55px;  
 }
 
 .padbottom50 {
