@@ -36,13 +36,13 @@ aws_secret_access_key=${PROD_SECRET_KEY}
 EOF
 
 # deploy
-aws s3 rm s3://$BUCKET --include "*" --exclude "*sdk.js" --recursive --profile $PROFILE
-aws s3 sync $DIR s3://$BUCKET/ --profile $PROFILE
+aws s3 rm s3://$BUCKET/$STAGE --include "*" --recursive --profile $PROFILE
+aws s3 sync $DIR s3://$BUCKET/$STAGE --profile $PROFILE
 
 # invalidate CDN cache for index.html
 aws configure set preview.cloudfront true
 
 for id in ${CLOUDFRONT_DISTRIBUTION_IDS//,/ }
 do
-  aws cloudfront create-invalidation --distribution-id $id --paths /index.html --profile $PROFILE
+  aws cloudfront create-invalidation --distribution-id $id --paths / --profile $PROFILE
 done
