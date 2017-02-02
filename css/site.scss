@@ -23,7 +23,7 @@ $navbar-inverse-color: $white;
 $navbar-inverse-link-color: $white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-active-bg: $white;
-$navbar-inverse-link-hover-bg: darken($brand-primary, 10%) !default;
+$navbar-inverse-link-hover-bg: lighten($brand-primary, 10%) !default;
 
 
 
