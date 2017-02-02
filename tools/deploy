@@ -33,7 +33,7 @@ aws_secret_access_key=${PROD_SECRET_KEY}
 [prod]
 aws_access_key_id=${PROD_ACCESS_KEY}
 aws_secret_access_key=${PROD_SECRET_KEY}
-EOF
+EOF 
 
 # deploy
 aws s3 rm s3://$BUCKET/$STAGE --include "*" --recursive --profile $PROFILE
