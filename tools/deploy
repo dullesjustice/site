@@ -47,5 +47,5 @@ aws configure set preview.cloudfront true
 
 for id in ${CLOUDFRONT_DISTRIBUTION_IDS//,/ }
 do
-  aws cloudfront create-invalidation --distribution-id $id --paths /* --profile $PROFILE
+  aws cloudfront create-invalidation --distribution-id $id --paths "/*" --profile $PROFILE
 done
