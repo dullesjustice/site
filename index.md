@@ -34,7 +34,7 @@ permalink: /
     </div>
   </div>
   {% include imagerow.html src="Homepage-photo2.jpg" %}
-  <div class="row inverse">
+  <div class="row inverse padbottom50">
     <div class="col-sm-10 col-sm-offset-1 col-xs-12">
       <h2>#NoBanNoWall</h2>
       <p>
@@ -50,7 +50,7 @@ permalink: /
       <h2>Reach Out to Us</h2>
     </div>
   </div>
-  <div class="row">
+  <div class="row padbottom50">
     <div class="col-sm-4 col-xs-12">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Legal.png" />
       <h3 class="centered">Get Legal Assistance</h3>
