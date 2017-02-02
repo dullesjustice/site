@@ -67,15 +67,21 @@ permalink: /
     <div class="col-xs-4">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Legal.png" />
       <h3 class="centered">Get Legal Assistance</h3>
+      <p>
+        Do you know someone who is being detained or needs legal help? We will work to an attorney to you quickly. <a href="{{ site.baseurl }}/legal/">REACH OUT</a>
+      </p>
     </div>
     <div class="col-xs-4">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Press.png" />
       <h3 class="centered">Press Inquries</h3>
+      <p>Are you a member of the media wishing to speak with one of our team members? <a href="{{ site.baseurl }}/press/">REACH OUT</a></p>
     </div>
     <div class="col-xs-4">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Twitter.png" />
       <h3 class="centered">Twitter</h3>
+      <p>Follow us <a href="https://twitter.com/DullesJustice">@DullesJustice</a> or the hashtag
+      <a href="https://twitter.com/hashtag/DullesJustice">#DullesJustice</a> for the latest information. </p>
     </div>
-
   </div>
+  {% include imagerow.html src="Homepage-photo3.jpg" %}
 </div>
