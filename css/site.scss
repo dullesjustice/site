@@ -186,6 +186,10 @@ h3.centered {
 .footer {
   text-align: center;
   padding: 25px;
+
+  a {
+    color: $white;
+  }
 }
 
 .fakebutton {
