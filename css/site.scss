@@ -4,6 +4,7 @@
 // Put Variable Overrides Here
 
 $brand-primary: #2F5C9F !default;
+$dark-grey: #4A4A4A !default;
 $font-family-sans-serif: 'Muli', sans-serif !default;
 $headings-font-family: 'Montserrat', sans-serif !default;
 $font-size-base: 20px;
@@ -16,6 +17,9 @@ $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            $font-size-base !default;
 $jumbotron-heading-font-size:    75px !default;
 
+$font-size-h1: 75px;
+$font-size-h2: 25px;
+
 
 // Now import bootsttrap
 
@@ -25,4 +29,8 @@ $jumbotron-heading-font-size:    75px !default;
 
 .btn {
     font-family: $headings-font-family;
+}
+
+.h2 {
+  color: $dark-grey;
 }
