@@ -25,7 +25,7 @@ permalink: /
       <p>
         We are grateful for any time you are able to give. Volunteer opportunities range from online to on the ground at Dulles. Please fill out our brief form to get an assignment.
       </p>
-      <a class="btn btn-primary btn-block" href="https://goo.gl/forms/sh1EhJHuWAan4YtE3">VOLUNTEER</a>
+      <a class="btn btn-primary col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" href="https://goo.gl/forms/sh1EhJHuWAan4YtE3">VOLUNTEER</a>
     </div>
   </div>
   <div class="row pad25">
