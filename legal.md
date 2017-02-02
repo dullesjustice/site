@@ -17,7 +17,7 @@ permalink: /legal/
       <p>
         Let us know who you are and what you need so that we can put you in contact with someone who can help.
       </p>
-      <a class="btn btn-primary btn-block" href="mailto:legalquestion@dullesjustice.org">LEGAL HELP</a>
+      <a class="btn btn-primary col-sm-6 col-xs-12" href="mailto:legalquestion@dullesjustice.org">LEGAL HELP</a>
     </div>
   </div>
   {% include imagerow.html src="Homepage-photo3.jpg" %}

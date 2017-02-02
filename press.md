@@ -19,7 +19,7 @@ permalink: /press/
           <p>
             Please contact the Dulles Justice Media Coordinator: <a href="mailto:press@dullesjustice.org">press@dullesjustice.org</a>
           </p>
-          <a class="btn btn-primary btn-block" href="mailto:press@dullesjustice.org">Email</a>
+          <a class="btn btn-primary col-sm-6 col-xs-12" href="mailto:press@dullesjustice.org">Email</a>
         </div>
       </div>
     </div>
