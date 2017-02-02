@@ -166,3 +166,15 @@ h3.centered {
   text-align: center;
   padding: 25px;
 }
+
+.getinvolved {
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    display: flex;
+    flex-direction: column;
+    p {
+      flex-grow: 1;
+    }
+  }
+}
