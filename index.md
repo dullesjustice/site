@@ -20,7 +20,7 @@ permalink: /
     <div class="col-sm-10 col-sm-offset-1"><h2>Get Involved</h2></div>
   </div>
   <div class="row getinvolved">
-    <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
       <img class="centered" src="{{ site.baseurl }}/images/Icon-Volunteer.png" />
       <p>
         We are grateful for any time you are able to give. Volunteer opportunities range from online to on the ground at Dulles. Please fill out our brief form to get an assignment.
@@ -29,7 +29,7 @@ permalink: /
     </div>
   </div>
   <div class="row pad25">
-    <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
       <p>If volunteering does not strike your fancy, here are other ways to <a href="{{ site.baseurl }}/action/">TAKE ACTION</a>.</p>
     </div>
   </div>
