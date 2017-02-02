@@ -16,9 +16,18 @@ $jumbotron-bg:                   $brand-primary !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            $font-size-base !default;
 $jumbotron-heading-font-size:    75px !default;
+$navbar-inverse-bg: $brand-primary;
+$navbar-inverse-color: $white;
+$navbar-inverse-link-color: $white;
+$navbar-inverse-link-active-color: $brand-primary;
+$navbar-inverse-link-active-bg: $white;
+
+
 
 $font-size-h1: 75px;
 $font-size-h2: 25px;
+
+$navbar-height: 150px;
 
 
 // Now import bootsttrap
@@ -33,4 +42,50 @@ $font-size-h2: 25px;
 
 .h2 {
   color: $dark-grey;
+}
+
+.navbar {
+  font-family: $headings-font-family;
+  border: 0;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 0;
+    .nav {
+      li a {
+        border-radius: 12px;
+        margin-top: 55px;
+        margin-right: 15px;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+  }
+
+.navbar {
+  .action a {
+    border: 1px solid $white;
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+.jumbotron h1 {
+  text-align: center;
 }
