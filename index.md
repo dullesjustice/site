@@ -5,4 +5,10 @@
 layout: default
 ---
 
-This is the index
+<div class="jumbotron">
+  <h1>Font Test!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<button class="btn btn-primary">HI</button>
