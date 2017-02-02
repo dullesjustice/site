@@ -7,6 +7,7 @@ PROFILE=${STAGE}
 BASE_DIR=./
 DIR=$BASE_DIR/_site
 
+
 if [ "$STAGE" != "test" ] && [ "$STAGE" != "prod" ]; then
   echo "ERROR: Invalid stage: $STAGE"
   exit 1
@@ -15,11 +16,13 @@ fi
 case "$STAGE" in
  test)
   CLOUDFRONT_DISTRIBUTION_IDS=$TEST_CLOUDFRONT_DISTRIBUTION_IDS
-  BUCKET=www.dullesjustice.org
+  BUCKET=test.dullesjustice.org
+  BUCKET_PATH=""
   ;;
  prod)
   CLOUDFRONT_DISTRIBUTION_IDS=$PROD_CLOUDFRONT_DISTRIBUTION_IDS
   BUCKET=www.dullesjustice.org
+  BUCKET_PATH=prod
   ;;
 esac
 
@@ -36,8 +39,8 @@ aws_secret_access_key=${PROD_SECRET_KEY}
 EOF
 
 # deploy
-aws s3 rm s3://$BUCKET/$STAGE --include "*" --recursive --profile $PROFILE
-aws s3 sync $DIR s3://$BUCKET/$STAGE --profile $PROFILE
+aws s3 rm s3://$BUCKET/$BUCKET_PATH --include "*" --recursive --profile $PROFILE
+aws s3 sync $DIR s3://$BUCKET/$BUCKET_PATH --profile $PROFILE
 
 # invalidate CDN cache for index.html
 aws configure set preview.cloudfront true
