@@ -9,10 +9,9 @@ dependencies:
     - bundle exec jekyll build
 deployment:
   prod:
-    branch: /(prod|test)/
+    branch: /(test)/
     commands:
-      - echo 'deploy WIP for $CIRCLE_BRANCH'
-      # - ./tools/deploy $CIRCLE_BRANCH 
+      - ./tools/deploy $CIRCLE_BRANCH 
   automerge:
     branch: /am\-.*/
     commands:

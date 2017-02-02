@@ -15,11 +15,11 @@ fi
 case "$STAGE" in
  test)
   CLOUDFRONT_DISTRIBUTION_IDS=$TEST_CLOUDFRONT_DISTRIBUTION_IDS
-  BUCKET=dullesjustice.org
+  BUCKET=www.dullesjustice.org
   ;;
  prod)
   CLOUDFRONT_DISTRIBUTION_IDS=$PROD_CLOUDFRONT_DISTRIBUTION_IDS
-  BUCKET=dullesjustice.org
+  BUCKET=www.dullesjustice.org
   ;;
 esac
 
@@ -27,8 +27,8 @@ esac
 mkdir -p ~/.aws
 cat > ~/.aws/credentials <<EOF
 [test]
-aws_access_key_id=${TEST_ACCESS_KEY}
-aws_secret_access_key=${TEST_SECRET_KEY}
+aws_access_key_id=${PROD_ACCESS_KEY}
+aws_secret_access_key=${PROD_SECRET_KEY}
 
 [prod]
 aws_access_key_id=${PROD_ACCESS_KEY}
