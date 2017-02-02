@@ -29,6 +29,7 @@ $font-size-h2: 31px;
 $font-size-h3: 25px;
 
 $navbar-height: 150px;
+$btn-border-radius-base: 12px;
 
 
 // Now import bootsttrap
@@ -55,7 +56,7 @@ h2 {
   text-align: center;
   color: $brand-primary;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 50px;
   letter-spacing: 3px;
 }
 
@@ -136,7 +137,12 @@ h3 {
   color: $white;
 }
 
-.pad {
+.pad25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.pad50 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -147,6 +153,11 @@ h3 {
   }
 
   margin-bottom: 0;
+}
+
+.centered {
+  display: block;
+  margin: 30px auto 30px;
 }
 
 .image-container {
