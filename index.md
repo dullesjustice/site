@@ -15,13 +15,7 @@ permalink: /
       </p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="image-container">
-        <img src="{{ site.baseurl }}/images/Homepage-photo1.jpg" />
-      </div>
-    </div>
-  </div>
+  {% include imagerow.html src="Homepage-photo1.jpg" %}
   <div class="row">
     <div class="col-xs-10 col-xs-offset-1"><h2>Get Involved</h2></div>
   </div>
@@ -52,4 +46,5 @@ permalink: /
       <p>If neither of these options strikes your fancy, here are other ways to <a href="{{ site.baseurl }}/action/">TAKE ACTION</a>.</p>
     </div>
   </div>
+  {% include imagerow.html src="Homepage-photo2.jpg" %}
 </div>
