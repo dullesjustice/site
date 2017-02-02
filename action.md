@@ -45,7 +45,7 @@ permalink: /action/
         <div class="col-xs-12 col-sm-9 col-sm-offset-1">
           <h3>Spread the Word</h3>
           <p>
-          Use the <a href="https://twitter.com/hashtag/DullesJustice">#DullesJustice</a> and <a href="https://twitter.com/hashtag/NoBanNoWall">#NoBanNoWall</a> hashtags. You can find us on Twitter @DullesJustice.
+          Use the <a href="https://twitter.com/hashtag/DullesJustice">#DullesJustice</a> and <a href="https://twitter.com/hashtag/NoBanNoWall">#NoBanNoWall</a> hashtags. You can find us on Twitter <a href="https://twitter.com/DullesJustice">@DullesJustice</a>.
           </p>
           <a class="btn btn-primary col-sm-6 col-xs-12" href="https://twitter.com/DullesJustice">TWITTER</a>
         </div>
