@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /action/
+title: Take Action
 ---
 
 <div class="container-fluid">

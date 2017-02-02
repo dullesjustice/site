@@ -1,14 +1,9 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="/css/site.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Muli" rel="stylesheet">
-  </head>
+  {% include head.html %}
   <body>
     {% include header.html %}
     {{ content }}
-    {% include footer.html %}    
+    {% include footer.html %}
   </body>
 </html>

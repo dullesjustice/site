@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /legal/
+title: Legal Assistance
 ---
 
 <div class="container-fluid">

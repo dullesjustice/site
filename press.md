@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /press/
+title: Media Inquiries
 ---
 
 <div class="container-fluid">
