@@ -38,12 +38,16 @@ $navbar-height: 150px;
 
 .btn {
     font-family: $headings-font-family;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .h1
   {
   letter-spacing: 3px;
   color: $brand-primary;
+  font-family: $headings-font-family;
 }
 
 .h2 {
@@ -53,7 +57,17 @@ $navbar-height: 150px;
 }
 
 .h3 {
-  color: $white;
+  color: $brand-primary;
+  font size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.p {
+  font-family: $font-family-sans-serif
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .navbar {
@@ -79,6 +93,11 @@ $navbar-height: 150px;
 
 .navbar-brand {
   padding-top: 25px;
+}
+
+.image {
+  max-width: 1200;
+  height: 400px;
 }
 
 .navbar-brand, .navbar-nav>li>a {
