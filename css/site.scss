@@ -23,6 +23,8 @@ $navbar-inverse-color: $white;
 $navbar-inverse-link-color: $white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-active-bg: $white;
+$navbar-inverse-link-hover-bg: darken($brand-primary, 10%) !default;
+
 
 
 
@@ -147,7 +149,7 @@ h3 {
 }
 
 .item:last-child {
-  padding-bottom: 55px;  
+  padding-bottom: 55px;
 }
 
 .padbottom50 {
