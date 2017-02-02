@@ -33,4 +33,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - circle.yml
-  - tools/*
+  - tools/
+  - vendor/
