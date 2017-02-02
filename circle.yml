@@ -1,0 +1,22 @@
+machine:
+  node:
+    version: 6.3.0
+dependencies:
+  pre:
+    - sudo pip install awscli
+    - gem install bundler
+test:
+  override:
+    - bundle exec jekyll build
+deployment:
+  prod:
+    branch: /(test)/
+    commands:
+      - ./tools/deploy $CIRCLE_BRANCH 
+  automerge:
+    branch: /am\-.*/
+    commands:
+      - git fetch origin test:test
+      - git fetch . $CIRCLE_BRANCH:test  
+      - git push origin test
+
