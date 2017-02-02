@@ -40,8 +40,20 @@ $navbar-height: 150px;
     font-family: $headings-font-family;
 }
 
+.h1
+  {
+  letter-spacing: 3px;
+  color: $brand-primary;
+}
+
 .h2 {
   color: $dark-grey;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.h3 {
+  color: $white;
 }
 
 .navbar {
