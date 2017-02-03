@@ -3,7 +3,7 @@ title: Call Congress
 icon: Icon-Call.png
 action_text: (202) 224-2131
 category: take_action
-order: 2
+order: 3
 ---
 
 We encourage the general public to call their members of Congress and ask for

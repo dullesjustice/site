@@ -4,7 +4,7 @@ icon: Icon-Volunteer.png
 action_link: https://goo.gl/forms/sh1EhJHuWAan4YtE3
 action_text: Volunteer
 category: take_action
-order: 1
+order: 2
 ---
 
 Are you or someone you know impacted by the Immigration Executive Order?

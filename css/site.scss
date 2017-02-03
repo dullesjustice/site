@@ -50,7 +50,7 @@ $grid-gutter-width:         60px !default;
     text-align: center;
 }
 
-.h1
+h1
   {
   letter-spacing: 3px;
   color: $brand-primary;
@@ -172,6 +172,15 @@ img.centered {
 h3.centered {
   text-align: center;
   min-height: 60px;
+}
+
+p.centered {
+  text-align: center;
+}
+
+.spaced {
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .image-container {
