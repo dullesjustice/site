@@ -7,7 +7,4 @@ category: take_action
 order: 2
 ---
 
-Are you or someone you know impacted by the Immigration Executive Order?
-
-Let us know who you are and what you need so that we can put you in contact with
-someone who can help.
+We are grateful for any time you are able to give. Volunteer opportunities range from online to on the ground at Dulles. Please fill out the brief form to get an assignment.
