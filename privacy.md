@@ -20,7 +20,7 @@ We collect information from you when you fill out a form or enter information on
 
 We may use the information we collect from you when you register, make a purchase, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:
 
-- To send periodic emails regarding your order or other products and services.
+- To respond to your requests for legal information or assistance.
 
 #### How do we protect your information?
 
@@ -42,12 +42,12 @@ You can choose to have your computer warn you each time a cookie is being sent, 
 
 If you turn cookies off, some features will be disabled. that make your site experience more efficient and may not function properly.
 
-However, you will still be able to sign up.
+However, you will still be able to place orders.
 
 
 #### Third-party disclosure
 
-We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.
+We do not sell or trade to outside parties your Personally Identifiable Information. We may disclose information to third-parties (i.e., lawyers, law firms) for the purpose of responding to a person's requests for legal information or assistance.
 
 #### Third-party links
 
@@ -63,7 +63,7 @@ Google, as a third-party vendor, uses cookies to serve ads on our site. Google's
 
 We have implemented the following:
 
- - Demographics and Interests Reporting
+- Demographics and Interests Reporting
 
 We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together to compile data regarding user interactions with ad impressions and other ad service functions as they relate to our website.
 
@@ -76,18 +76,20 @@ Users can set preferences for how Google advertises to you using the Google Ad S
 CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law's reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. - See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf
 
 According to CalOPPA, we agree to the following:
-Users can visit our site anonymously.
-Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.
-Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.
+
+- Users can visit our site anonymously.
+- Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.
+- Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.
 
 You will be notified of any Privacy Policy changes:
- - On our Privacy Policy Page
 
-You can change your personal information:
- - By emailing us
+- On our Privacy Policy Page
 
-#### How does our site handle Do Not Track signals?
+Can change your personal information:
 
+- By emailing us
+
+How does our site handle Do Not Track signals?
 We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.
 
 #### Does our site allow third-party behavioral tracking?
@@ -100,7 +102,7 @@ When it comes to the collection of personal information from children under the 
 
 We do not specifically market to children under the age of 13 years old.
 
-Fair Information Practices
+#### Fair Information Practices
 
 The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.
 
@@ -117,18 +119,21 @@ The CAN-SPAM Act is a law that sets the rules for commercial email, establishes 
 
 We collect your email address in order to:
 
- - Send information, respond to inquiries, and/or other requests or questions
+- Send information, respond to inquiries, and/or other requests or questions
 
 To be in accordance with CANSPAM, we agree to the following:
 
- - Not use false or misleading subjects or email addresses.
- - Identify the message as an advertisement in some reasonable way.
- - Include the physical address of our business or site headquarters.
- - Monitor third-party email marketing services for compliance, if one is used.
- - Honor opt-out/unsubscribe requests quickly.
- - Allow users to unsubscribe by using the link at the bottom of each email.
+- Not use false or misleading subjects or email addresses.
+- Identify the message as an advertisement in some reasonable way.
+- Include the physical address of our business or site headquarters.
+- Monitor third-party email marketing services for compliance, if one is used.
+- Honor opt-out/unsubscribe requests quickly.
+- Allow users to unsubscribe by using the link at the bottom of each email.
 
-If at any time you would like to unsubscribe from receiving future emails, follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.
+If at any time you would like to unsubscribe from receiving future emails, you can email us at
+
+- Follow the instructions at the bottom of each email.
+and we will promptly remove you from ALL correspondence.
 
 
 #### Contacting Us
@@ -143,4 +148,4 @@ USA
 info@dullesjustice.org
 ```
 
-Last Edited on 2017-02-02
+Last Edited on 2017-02-03
