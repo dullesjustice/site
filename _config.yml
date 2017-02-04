@@ -26,6 +26,12 @@ twitter_username: dullesjustice
 collections:
 - items
 
+alert: >
+  <p>CNN is reporting that Customs and Border Patrol has announced they will
+  immediately comply with Federal Judge James Robart's temporary order to
+  halt President Donald Trump's immigration executive order.</p>
+
+  <p><a href="/images/wash-v-trump-order.pdf">Read Judge Robart's Temporary Restraining Order</a></p>
 
 # Build settings
 markdown: kramdown
