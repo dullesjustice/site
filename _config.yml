@@ -27,11 +27,15 @@ collections:
 - items
 
 alert: >
-  <p>CNN is reporting that Customs and Border Protection (CBP) has announced they will
-  immediately comply with Federal Judge James Robart's temporary order to
-  halt President Donald Trump's immigration executive order.</p>
+  <p>The Ninth Circuit Court of Appeals denied the government's request for an emergency stay, which
+  would have reinstated the Executive Order that has prevented refugees and
+  people from seven countries from entering the United States.</p>
 
-  <p><a href="/images/wash-v-trump-order.pdf">Read Judge Robart's Temporary Restraining Order</a></p>
+  <p><strong>Because the Ninth Circuit denied the stay, affected travelers
+  can likely enter at least until Monday afternoon.</strong></p>
+
+  <p>Read the <a href="http://s3.documentcloud.org/documents/3452194/9th-Cir-Emergency-Stay-Motion.pdf">motion</a>
+    and <a href="http://cdn.ca9.uscourts.gov/datastore/general/2017/02/05/17-35105.pdf">the Ninth Circuit's denial</a></p>
 
 # Build settings
 markdown: kramdown
