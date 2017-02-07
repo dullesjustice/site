@@ -16,6 +16,7 @@
     <ul class="nav navbar-right navbar-nav">
       {% assign current = page.url | downcase | split: '/' %}
       <li role="presentation" {% if current[1] == 'legal' %}class="active"{% endif %}><a href="{{ site.baseurl }}/legal/">Legal Help</a></li>
+      <li role="presentation" {% if current[1] == 'legal_resources' %}class="active"{% endif %}><a href="{{ site.baseurl }}/legal_resources/">Resources for Lawyers</a></li>
       <li role="presentation" {% if current[1] == 'press' %}class="active"{% endif %}><a href="{{ site.baseurl }}/press/">Press</a></li>
       <li role="presentation"><a href="https://twitter.com/dullesjustice">Twitter</a></li>
       <li role="presentation" class="action {% if current[1] == 'action' %}active{% endif %}"><a href="{{ site.baseurl }}/action/">Take Action</a></li>

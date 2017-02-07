@@ -4,6 +4,7 @@
 // Put Variable Overrides Here
 
 $brand-primary: #2F5C9F !default;
+$brand-primary-dark: darken($brand-primary, 10%) !default;
 $dark-grey: #4A4A4A !default;
 $font-family-sans-serif: 'Muli', sans-serif !default;
 $headings-font-family: 'Montserrat', sans-serif !default;
@@ -23,7 +24,7 @@ $navbar-inverse-color: $white;
 $navbar-inverse-link-color: $white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-active-bg: $white;
-$navbar-inverse-link-hover-bg: darken($brand-primary, 10%) !default;
+$navbar-inverse-link-hover-bg: $brand-primary-dark;
 
 
 
@@ -222,4 +223,32 @@ p.centered {
       flex-grow: 1;
     }
   }
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: $brand-primary;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: $brand-primary-dark;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }

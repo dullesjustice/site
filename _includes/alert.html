@@ -1,6 +1,8 @@
+{% if site.alerts.last.enabled %}
 <div style="background-color: black; padding: 25px 50px">
   <div style="color: red">BREAKING NEWS</div>
   <div style="color: white">
-    {{ site.alert }}
+    {{ site.alerts.last.output }}
   </div>
 </div>
+{% endif %}
