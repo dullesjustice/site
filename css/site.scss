@@ -238,8 +238,10 @@ p.centered {
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
+  width: 90px;
 	background: $brand-primary;
 	display: inline-block;
+  margin-bottom: 10px;
 }
 
 #clockdiv div > span{
@@ -247,6 +249,7 @@ p.centered {
 	border-radius: 3px;
 	background: $brand-primary-dark;
 	display: inline-block;
+  width: 70px;
 }
 
 .smalltext{
