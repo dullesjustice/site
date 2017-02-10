@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Summary of Ninth Circuit Ruling"
-date:   2017-02-09 21:30:00 -0400
 categories: analysis
 ---
 
