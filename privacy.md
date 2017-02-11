@@ -1,6 +1,6 @@
 ---
-layout: page
-title: www.dullesjustice.org Privacy Policy
+layout: post
+title: Privacy Policy
 footer_image: Homepage-photo2.jpg
 permalink: /privacy/
 ---

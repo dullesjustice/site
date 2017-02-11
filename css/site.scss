@@ -74,6 +74,12 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  margin-top: 30px;
+  line-height: 30px;
+  color: $dark-grey
+}
+
 .navbar {
   font-family: $headings-font-family;
   border: 0;
