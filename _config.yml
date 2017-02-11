@@ -39,6 +39,11 @@ defaults:
     values:
       footer_image: Homepage-photo3.jpg
       show_alert: false
+  - scope:
+      path: ""
+      type: "alerts"
+    values:
+      alert_heading: Breaking News
 
 # Build settings
 markdown: kramdown
