@@ -10,7 +10,7 @@ $font-family-sans-serif: 'Muli', sans-serif !default;
 $headings-font-family: 'Montserrat', sans-serif !default;
 $headings-font-weight: bold;
 $font-size-base: 15px;
-$line-height-base: 1.333;
+$line-height-base: 1.5;
 
 $white: #ffffff;
 $jumbotron-padding:              20px !default;
@@ -138,6 +138,10 @@ h4 {
   h2 {
     color: $white;
   }
+}
+
+.pageheading {
+  padding-top: 25px;
 }
 
 .pad25 {
@@ -291,4 +295,10 @@ p.centered {
       color: #aaa;
     }
   }
+}
+
+.disclaimer {
+  margin-top: 3em;
+  font-size: 10px;
+  color: #4A4A4A;
 }

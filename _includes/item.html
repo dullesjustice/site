@@ -2,14 +2,18 @@
   <div class="col-xs-12 col-sm-8 col-sm-offset-2 itembody">
     <div class="row">
       <div class="col-xs-12 col-sm-2"><img class="centered" src="{{ site.baseurl }}/images/{{ item.icon }}" /></div>
-      <div class="col-xs-12 col-sm-9 col-sm-offset-1">
+      <div class="col-xs-12 col-sm-10">
         <h3>{{ item.title }}</h3>
         {{ item.output }}
 
         {% if item.action_link %}
-          <a class="btn btn-primary col-sm-6 col-xs-12" href="{{ item.action_link }}">{{ item.action_text }}</a>
+          <a class="btn btn-primary btn-large" href="{{ item.action_link }}">{{ item.action_text }}</a>
         {% elsif item.action_text %}
-          <p class="fakebutton col-sm-6 col-xs-12">{{ item.action_text }}</p>
+          <p class="fakebutton btn-large">{{ item.action_text }}</p>
+        {% endif %}
+
+        {% if item.legal_policy %}
+        {% include disclaimer.html %}
         {% endif %}
       </div>
     </div>
