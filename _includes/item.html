@@ -1,8 +1,10 @@
 <div class="row item">
   <div class="col-xs-12 col-sm-8 col-sm-offset-2 itembody">
     <div class="row">
+      {% if item.icon %}
       <div class="col-xs-12 col-sm-2"><img class="centered" src="{{ site.baseurl }}/images/{{ item.icon }}" /></div>
-      <div class="col-xs-12 col-sm-10">
+      {% endif %}
+      <div class="col-xs-12 col-sm-10 {% unless item.icon %}col-sm-offset-2{% endunless %}">
         <h3>{{ item.title }}</h3>
         {{ item.output }}
 

@@ -1,6 +1,5 @@
 ---
 title: Find an Immigration Lawyer
-icon: Icon-Legal.png
 category: legal
 order: 2
 ---
