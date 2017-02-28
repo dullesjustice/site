@@ -2,7 +2,7 @@
 <div class="headalert">
   <h2>{{ site.alerts.last.alert_heading }}</h2>
   <div>
-    {{ site.alerts.last }}
+    {{ site.alerts.last.content | markdownify }}
   </div>
 </div>
 {% endif %}
