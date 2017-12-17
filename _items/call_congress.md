@@ -1,7 +1,7 @@
 ---
 title: Call Congress
 icon: Icon-Call.png
-action_text: Call the congress at (202) 224-2131
+action_text: Call Congress at (202) 224-2131
 category: take_action
 order: 3
 ---
