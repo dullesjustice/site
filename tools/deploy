@@ -16,11 +16,11 @@ fi
 case "$STAGE" in
  test)
   CLOUDFRONT_DISTRIBUTION_IDS=$TEST_CLOUDFRONT_DISTRIBUTION_IDS
-  BUCKET=test.dullesjustice.org
+  BUCKET=test2.dullesjustice.org
   ;;
  prod)
   CLOUDFRONT_DISTRIBUTION_IDS=$PROD_CLOUDFRONT_DISTRIBUTION_IDS
-  BUCKET=www.dullesjustice.org
+  BUCKET=www2.dullesjustice.org
   ;;
 esac
 
