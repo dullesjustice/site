@@ -1,0 +1,104 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/dullesjustice/site
+    environment:
+      JOB_RESULTS_PATH: run-results
+    docker:
+    - image: circleci/ruby:2.3
+    steps:
+    - checkout
+    # Restore the Dependency Cache
+    - restore_cache:
+        key: dullesjustice-site-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+    - run:
+        name: Install Ruby dependencies
+        command: bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
+    # Save dependency cache
+    - save_cache:
+        key: dullesjustice-site-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+        paths:
+          - "vendor/bundle"
+    - run:
+        name: Create results directory
+        command: mkdir -p $JOB_RESULTS_PATH
+    - run:
+        name: Build the Jekyll site
+        command: bundle exec jekyll build | tee $JOB_RESULTS_PATH/build-results.txt
+    - store_artifacts:
+        path: jekyll/_site/
+        destination: site
+    - store_artifacts:
+        path: run-results/
+        destination: run-results
+    - persist_to_workspace:
+        root: ~/dullesjustice/site
+        paths:
+          - _site
+  deploy-test:
+    docker:
+      - image: circleci/python:2.7-jessie
+    working_directory: ~/dullesjustice/site
+    environment:
+      BUCKET: "test2.dullesjustice.org"
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: ./site
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync site/_site s3://$BUCKET/ --delete
+      - run:
+          name: Invalidate Cloudfront
+          command: |
+            aws configure set preview.cloudfront true
+            for id in ${TEST_CLOUDFRONT_DISTRIBUTION_IDS//,/ }
+            do
+              aws cloudfront create-invalidation --distribution-id $id --paths "/*"
+            done
+
+  deploy-prod:
+    docker:
+      - image: circleci/python:2.7-jessie
+    working_directory: ~/dullesjustice/site
+    environment:
+      BUCKET: "www2.dullesjustice.org"
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: ./site
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync site/_site s3://$BUCKET/ --delete
+      - run:
+          name: Invalidate Cloudfront
+          command: |
+            aws configure set preview.cloudfront true
+            for id in ${PROD_CLOUDFRONT_DISTRIBUTION_IDS//,/ }
+            do
+              aws cloudfront create-invalidation --distribution-id $id --paths "/*"
+            done
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy-test:
+          requires:
+            - build
+          filters:
+            branches:
+              only: test
+      - deploy-prod:
+          requires:
+            - build
+          filters:
+            branches:
+              only: prod
