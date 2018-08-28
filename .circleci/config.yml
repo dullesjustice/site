@@ -50,7 +50,7 @@ jobs:
           command: sudo pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync site s3://$BUCKET/ --delete
+          command: aws s3 sync site/_site s3://$BUCKET/ --delete
       - run:
           name: Invalidate Cloudfront
           command: |
@@ -75,7 +75,7 @@ jobs:
           command: sudo pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync site s3://$BUCKET/ --delete
+          command: aws s3 sync site/_site s3://$BUCKET/ --delete
       - run:
           name: Invalidate Cloudfront
           command: |
