@@ -40,7 +40,7 @@ jobs:
       - image: circleci/python:2.7-jessie
     working_directory: ~/dullesjustice/site
     environment:
-      BUCKET: "test.dullesjustice.org"
+      BUCKET: "test2.dullesjustice.org"
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
@@ -65,7 +65,7 @@ jobs:
       - image: circleci/python:2.7-jessie
     working_directory: ~/dullesjustice/site
     environment:
-      BUCKET: "www.dullesjustice.org"
+      BUCKET: "www2.dullesjustice.org"
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
